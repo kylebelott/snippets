@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+<body>
+    <div id="buttonDiv">
+        <button id="Button" class="Button" data-dojo-type="dojox/mobile/ToggleButton">
+           <!--data-dojo-props="onChange:  function(checked) {alert(checked);}"-->
+        </button>
+    </div>
+</body>
+</html>
+
+CSS
+        #buttonDiv {
+            position: fixed;
+            top: 22px;
+            left: 305px;
+            z-index: 1;
+        }
+
+        .Button {
+            background-image: url(http://{path}/images/edit_stop.png);
+            background-position: center center;
+            width: 65px;
+            height: 65px;
+            background-repeat: no-repeat;
+            border-radius: 5px;
+            border: 0px;
+        }
+
+        .ButtonChecked {
+            background-image: url(http://{path}/images/edit_go.png);
+            background-position: center center;
+            width: 65px;
+            height: 65px;
+            background-repeat: no-repeat;
+            border-radius: 5px;
+            border: 0px;
+        }
